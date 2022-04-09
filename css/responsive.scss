@@ -1,13 +1,17 @@
 //Tablet & Mobile
 @import './variables.scss';
 
-@media (max-width: 1113px) {}
+@media (max-width: 111.3rem) {}
 
 // Tablet
-@media (min-width: 768px) and (max-width:1113px) {}
+@media (min-width: 76.8rem) and (max-width:111.3rem) {
+    .best__content-description {
+        width: 35rem;
+    }
+}
 
 // Mobile
-@media (max-width: 767px) {
+@media (max-width: 76.7rem) {
     .header {
         & .btn-close {
             &:hover {

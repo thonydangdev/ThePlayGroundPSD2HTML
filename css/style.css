@@ -423,7 +423,12 @@ body {
     transform: translateX(0);
   }
 }
-@media (max-width: 767px) {
+@media (min-width: 76.8rem) and (max-width: 111.3rem) {
+  .best__content-description {
+    width: 35rem;
+  }
+}
+@media (max-width: 76.7rem) {
   .header .btn-close {
     display: block;
     top: 0;
